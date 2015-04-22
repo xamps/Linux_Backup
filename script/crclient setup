@@ -1,0 +1,16 @@
+*********crclient configuration*************
+#to define the path of the enable_x86_in_x64 {{ cd '/home/argha/Desktop/enable_x86_in_x64'}}
+#to execute the install.sh file inside the enable_x86_in_x64 {{chmod +x install.sh}}
+#to install the install the install.sh file {{./install.sh}}
+#to depackaging the libgcc1_4.9.1-16ubuntu6_i386.deb file from the enable_x86_in_x64 folder  {{sudo dpkg -x '/home/argha/Desktop/enable_x86_in_x64/libgcc1_4.9.1-16ubuntu6_i386.deb' ./temp}}
+#to copy the file libgcc_s.so.1s fromthe location /home/argha/Desktop/enable_x86_in_x64/temp/lib/i386-linux-gnu to a location lib32{{sudo cp '/home/argha/Desktop/enable_x86_in_x64/temp/lib/i386-linux-gnu/libgcc_s.so.1' /lib32}}.
+#back to desktop {{cd ../ Desktop}}
+#to unzip the tar file of crclient{{tar -xzvf crclient.tar.gz}}****you can also maually do it.
+#to unzip the file to a specific folder {{tar -xzvf crclient.tar.gz ./crclient}}**here crclient is the file name
+# to execute the script written into the crclient.sh file {{./crclient.sh -r}}.
+#
+
+
+
+
+
